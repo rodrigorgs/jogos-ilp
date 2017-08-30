@@ -1,0 +1,2 @@
+O jogo consiste em se mover para a direita e esquerda, com o objetivo de manter Romilson (o nosso herói) a salvo da chuva de hamburgueres que está atingindo a sua cidade.
+Essa movimentação consiste em pressionar as teclas direcionais (Left & Right) e se manter vivo durante o maior espaço de tempo possível, evitando que o Romilson seja atingido por um hamburguer.
