@@ -1,0 +1,15 @@
+﻿Comandos; 
+1° player
+W>>cima
+S>>baixo
+A>>esquerda
+D>>direita
+X>>BOMBA
+
+
+2° player
+I>>cima
+K>>baixo
+J>>esquerda
+L>>direita
+Y>>BOMBA
