@@ -12,3 +12,5 @@ Lista de jogos:
 - Snake. [vídeo](https://youtu.be/exfmbeVZkWk), [código](https://github.com/rodrigorgs/jogos-ilp/tree/master/src/snake)
 - Tá Chovendo Hamburguer. [vídeo](https://youtu.be/dDPwXwz_wvA), [código](https://github.com/rodrigorgs/jogos-ilp/tree/master/src/ta-chovendo-hamburguer)
 - ILP Tanks. [vídeo](https://youtu.be/-c7fbMlZ71o), [código](https://github.com/rodrigorgs/jogos-ilp/tree/master/src/ilp-tanks)
+- Mandíbula. [vídeo](), [código](https://github.com/rodrigorgs/jogos-ilp/tree/master/src/mandibula)
+- Bombermario. [vídeo](), [código](https://github.com/rodrigorgs/jogos-ilp/tree/master/src/bombermario)
