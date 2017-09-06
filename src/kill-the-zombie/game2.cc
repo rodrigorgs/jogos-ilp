@@ -19,8 +19,7 @@ SDL_Surface *Life1;
 Mix_Chunk *shoot;
 Mix_Music *musica;
 
-bool pause = true;
-int tempo = 0, contador = 0, kill = 0, qntd ;
+int tempo = 0, contador = 0, kills = 0, qntd ;
 
 struct position {
 	SDL_Surface* surface;
@@ -119,7 +118,7 @@ void processEvent(SDL_Event event) {
 void draw() {
 	int i, j = 0;
 	drawImage(background, 0 , -30);
-	if (kill <= 15 )
+	if (kills <= 15 )
 	drawImage(shooter, atirador.x, atirador.y);
 	else drawImage(shooter2, atirador.x, atirador.y);
 	// HP
@@ -200,7 +199,7 @@ void detectaColisaoBala(int j) {
 		//bala[j].x += 5.0f;
   		monster[j].x = 700;
 		monster[j].y = (rand() % 400) + 50;
-		kill += 1;
+		kills += 1;
 		bala[i].tiro = false;
 		velocidadeX += 0.05f;
 	}
@@ -215,7 +214,7 @@ void update() {
 	}
 	lastTime = time;
 
-	if (kill < 15)
+	if (kills < 15)
 	{
 		qntd = 3;
 	}
